@@ -1,0 +1,55 @@
+body {
+    color: rgb(77, 76, 76);
+    background-color: rgb(224, 225, 228);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    border: 3px solid white;
+    margin: 20px;
+    padding: 5px 20px 5px 20px;
+}
+
+main {
+    border: 3px solid black;
+    margin: 20px;
+    padding: 5px 20px;
+}
+
+footer {
+    border: 3px solid lightsteelblue;
+    margin: 0 auto;
+    width: 90px;
+    padding: 5px 20px;
+}
+
+#white-background {
+    background-color: white;
+    }
+
+nav {
+    border: 3px solid lightsteelblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+.navigator ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigator li {
+    display: inline;
+    padding: 10px 10px 10px 0;
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: rgb(108, 110, 110);
+        color: white;
+        font-size: 14px;
+        line-height: 15px;
+    }
+}
+
